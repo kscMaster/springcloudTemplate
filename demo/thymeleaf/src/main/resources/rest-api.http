@@ -1,0 +1,16 @@
+### 创建用户
+
+POST http://localhost:80/user/ksc/ksc
+Accept: application/json
+
+
+
+
+### 根据id获取用户
+
+GET http://localhost:80/user/1
+Accept: application/json
+
+
+### 页面地址
+GET http://localhost/html/allUsers

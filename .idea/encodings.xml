@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/base.common_constants/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base.common_utils/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base/common_constants/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base/common_util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base/common_utils/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base/entity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/discover_svr/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/testSvr/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common_req/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo/MapStructDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo/designPattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo/es/es-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo/es/springdata-elasticsearch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo/jdkDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo/juc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo/mq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo/rabbitmqSample/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo/routingDataSourceExample/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo/thymeleaf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo/websocket/websocket-cli/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo/websocket/websocket-svr/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/websocket/src/main/java" charset="UTF-8" />
+  </component>
+</project>

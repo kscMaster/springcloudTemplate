@@ -1,0 +1,56 @@
+server:
+  port: 80
+
+spring:
+  rabbitmq:
+    host: ${app.localhost}
+    port: 5672
+    username: mq
+    password: mq
+
+  datasource:
+#    替换默认hicar的类型
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+#    多数据源情况下，不需要在这里配置
+#    url: jdbc:mysql://${app.localhost}:${app.mysql.port}/test?useUnicode=true&characterEncoding=utf-8&useSSL=false
+#    username: ${app.mysql.username}
+#    password: ${app.mysql.pwd}
+#    连接池自有的配置
+    druid:
+      initial-size: 5 # 初始化连接数量
+      min-idle: 5 # 最小线连接数量
+      max-active: 20 # 最大连接数量
+      max-wait: 60000 # 获取连接时最大等待时间，单位毫秒
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000 #销毁线程时检测当前连接的最后活动时间和当前时间差大于该值时，关闭当前连接
+      validation-query: SELECT 1 # 用来检测连接是否有效的sql
+      test-while-idle: true #
+      test-on-borrow: false # 申请连接时执行validationQuery检测连接是否有效
+      test-on-return: false # 归还连接时执行validationQuery检测连接是否有效
+      pool-prepared-statements: true # 是否缓存preparedStatement，也就是PSCache
+      max-pool-prepared-statement-per-connection-size: 20 # 每个连接上PSCache的大小
+      filters: stat,wall,log4j # 配置监控统计拦截的filters,去掉后监控界面sql无法统计. stat: 监控统计、Log4j:日志记录、waLL: 防御sqL注入
+      connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000 # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
+      # 配置后台监控
+      stat-view-servlet:
+        allow: 127.0.0.1
+        enabled: true # 是否启用监控
+        url-pattern: /druid/* # 监控路径
+        login-username: admin # 登录用户名
+        login-password: admin # 登录密码
+        reset-enable: false # 是否允许重置
+#    
+    db1:
+      url: jdbc:mysql://${app.localhost}:${app.mysql.port}/test?useUnicode=true&characterEncoding=utf-8&useSSL=false
+      username: ${app.mysql.username}
+      password: ${app.mysql.pwd}
+    db2:
+      url: jdbc:mysql://${app.localhost}:${app.mysql.port}/test2?useUnicode=true&characterEncoding=utf-8&useSSL=false
+      username: ${app.mysql.username}
+      password: ${app.mysql.pwd}
+  jpa:
+    hibernate:
+      ddlAuto: update
+    databasePlatform: org.hibernate.dialect.MySQL5InnoDBDialect
+    showSql: true

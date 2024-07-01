@@ -1,0 +1,48 @@
+#spring:
+#  application:
+#    name: discover-svr1
+#
+#  cloud:
+#    nacos:
+#      config: #nacos的信息，添加后可以省略注册中心的nacos此类信息
+#        server-addr: 192.168.147.25:8848
+#        username: nacos
+#        password: nacos
+#        contextPath: /nacos
+#        #--------------------------
+#        file-extension: yaml    #显示的声明dataId文件扩展名
+#  profiles:
+#    active: dev
+
+spring:
+  application:
+    name: discover-svr
+  cloud:
+    nacos:
+      config:
+        server-addr: ${app.localhost}:8848 #nacos中心地址
+        file-extension: yaml # 配置文件格式
+        namespace: kxp # 命名空间
+        group: dev # 配置文件所在的分组
+        data-id: cloud # 配置文件的数据ID
+
+logging:
+  file:
+    name: ./logs/logger.log
+  level:
+    root: info
+
+
+app:
+  localhost: 192.168.147.25
+  mysql:
+    port: 3306
+    username: ksc
+    pwd: ksc
+  redis:
+    port: 6379
+    pwd: 123456
+  mq:
+    port: 5672
+    username: admin
+    pwd: admin

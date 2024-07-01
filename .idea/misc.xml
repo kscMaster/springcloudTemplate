@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/base/common_utils/pom.xml" />
+        <option value="$PROJECT_DIR$/base/entity/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/base.common_constants/pom.xml" />
+        <option value="$PROJECT_DIR$/base.common_utils/pom.xml" />
+        <option value="$PROJECT_DIR$/base/pom.xml" />
+        <option value="$PROJECT_DIR$/common_req/pom.xml" />
+        <option value="$PROJECT_DIR$/websocket/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Gradle</id>
+          </State>
+          <State>
+            <id>GradleMigrationKotlin</id>
+          </State>
+          <State>
+            <id>JSON 和 JSON5</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 互操作问题Kotlin</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>MigrationKotlin</id>
+          </State>
+          <State>
+            <id>MySQL</id>
+          </State>
+          <State>
+            <id>Security</id>
+          </State>
+          <State>
+            <id>可能的错误Gradle</id>
+          </State>
+          <State>
+            <id>可能的错误Kotlin</id>
+          </State>
+          <State>
+            <id>最佳做法Gradle</id>
+          </State>
+          <State>
+            <id>有效性问题Gradle</id>
+          </State>
+          <State>
+            <id>样式问题Kotlin</id>
+          </State>
+          <State>
+            <id>资源管理Java</id>
+          </State>
+          <State>
+            <id>软件包搜索</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AOP</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="increaseLineSpacing" value="true" />
+  </component>
+  <component name="uidesigner-configuration">
+    <option name="RESIZE_HEADERS" value="false" />
+  </component>
+</project>

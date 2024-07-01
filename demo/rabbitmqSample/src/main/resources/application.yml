@@ -1,0 +1,25 @@
+spring:
+  rabbitmq:
+    host: 192.168.8.188
+    username: ksc
+    password: ksc
+    virtual-host: /test
+    port: 5672
+    connection-timeout=5000: 5000
+    publisher-confirms: true
+    # return消息.net/warybee/article/details/103339292
+    publisher-returns: true
+    #当mandatory标志位设置为true时，如果exchange根据自身类型和消息routingKey无法找到一个合适的queue存储消息，那么broker会调用basic.return方法将消息返还给生产者
+    # 如果为false，则直接丢弃消息
+    template:
+      mandatory: true
+    listener:
+      simple:
+        #消息确认模式 手工模式
+        acknowledge-mode: manual
+        # 初始化链接
+        concurrency: 5
+        # 最大链接
+        max-concurrency: 10
+        #限流，同一时间只有一条消息消费
+        prefetch: 1

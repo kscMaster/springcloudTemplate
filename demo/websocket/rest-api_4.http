@@ -1,0 +1,16 @@
+### 客户端给服务端发送消息
+
+POST http://localhost:8082/send2server
+Accept: application/json
+
+我来自客户端
+
+<> 2024-03-12T153551.405.json
+<> 2024-03-12T153531.404.json
+
+### 服务端给客户端发送消息
+
+POST http://localhost:8081/send2client
+Accept: application/json
+
+我来自服务端

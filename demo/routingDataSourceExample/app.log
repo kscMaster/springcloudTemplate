@@ -1,0 +1,14 @@
+2024-05-30 11:00:06.796  INFO 84559 --- [main] .e.Springboot2AdminStudyApplicationTests : The following 1 profile is active: "dev"
+2024-05-30 11:00:07.629  INFO 84559 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-30 11:00:07.654  INFO 84559 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2024-05-30 11:00:07.950  INFO 84559 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=25b3b76e-023f-3705-b7ac-6bbac287aca9
+2024-05-30 11:00:09.831  INFO 84559 --- [main] .e.Springboot2AdminStudyApplicationTests : Started Springboot2AdminStudyApplicationTests in 4.44 seconds (JVM running for 6.175)
+2024-05-30 11:00:09.834  INFO 84559 --- [main] org.example.RoutingDataSourceApp         : localhost:192.168.147.25
+2024-05-30 11:00:09.835  INFO 84559 --- [main] org.example.RoutingDataSourceApp         : name:routingDataSourceExample
+2024-05-30 11:04:20.295  INFO 84647 --- [main] .e.Springboot2AdminStudyApplicationTests : The following 1 profile is active: "dev"
+2024-05-30 11:04:21.186  INFO 84647 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-30 11:04:21.211  INFO 84647 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2024-05-30 11:04:21.600  INFO 84647 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=25b3b76e-023f-3705-b7ac-6bbac287aca9
+2024-05-30 11:04:23.831  INFO 84647 --- [main] .e.Springboot2AdminStudyApplicationTests : Started Springboot2AdminStudyApplicationTests in 5.855 seconds (JVM running for 7.525)
+2024-05-30 11:04:23.834  INFO 84647 --- [main] org.example.RoutingDataSourceApp         : localhost:192.168.147.25
+2024-05-30 11:04:23.836  INFO 84647 --- [main] org.example.RoutingDataSourceApp         : name:routingDataSourceExample

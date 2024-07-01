@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: routingDataSourceExample
+
+app:
+  localhost: 192.168.147.25
+  mysql:
+    port: 3306
+    username: ksc
+    pwd: ksc
+  redis:
+    port: 6379
+    pwd: 123456
